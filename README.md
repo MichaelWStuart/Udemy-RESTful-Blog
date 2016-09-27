@@ -1,3 +1,5 @@
-# Udemy-Web-Dev-Bootcamp
-# Udemy-Web-Dev-Bootcamp
-# Web-Dev-Bootcamp
+# Dear diary,
+
+# Today I pushed things onto github
+
+# The End
