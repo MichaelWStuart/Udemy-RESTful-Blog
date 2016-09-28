@@ -5,3 +5,21 @@ i.icon {
 .container.main {
     margin-top: 7.0em;
 }
+
+#delete {
+    display: inline;
+}
+
+/*----------custom----------*/
+
+.right.chevron.icon {
+    font-size: 1em;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.content {
+    margin: 10 0px;
+}

@@ -8,10 +8,13 @@
             <div class='content'>
                 <span><%= blog.created.toDateString() %></span>
             </div>
-            <div class='decription'>
-                <!-- Will sanitize the following line later -->
+            <div class='description'>
                 <p><%- blog.body %></p>
             </div>
+            <a class='ui black basic button' href='/blogs/<%= blog._id %>/edit'>Edit</a>
+            <form id='delete' action='/blogs/<%= blog._id %>?_method=DELETE' method='POST'>
+                <button class='ui black basic button'>Delete</button>
+            </form>
         </div>
     </div>
 </div>
