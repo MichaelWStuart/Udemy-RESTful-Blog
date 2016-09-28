@@ -109,11 +109,11 @@ app.delete('/blogs/:id', function(req, res){
         } else {
             //...then redirect to the index.
             res.redirect('/blogs');
-    
-        }  
+
+        }
     });
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("serve's up");
+    console.log("serve's up fool");
 });
